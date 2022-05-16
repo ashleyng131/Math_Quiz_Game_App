@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8CB"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@android:color/holo_red_light" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="@color/purple_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/break1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="395dp"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="18dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@string/hp"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/heart" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/heart" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/heart" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="26dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro"
+            android:textColor="@color/purple_700"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/break2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/break3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question"
+            android:textColor="@color/purple_700"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/break4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/break5"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans1"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break6"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans2"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break7"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break8"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans4"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break9"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/break10"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans5"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break11"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans6"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break12"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans7"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break13"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans8"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break14"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/break15"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans9"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break16"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans10"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break17"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans11"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break18"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans12"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break19"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/break20"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans13"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break21"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans14"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break22"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans15"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break23"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="9dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/question_ans16"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/break24"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
